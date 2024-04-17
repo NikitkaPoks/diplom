@@ -212,6 +212,10 @@ footer .menu a:hover {
     max-width: 50%;
 }
 
+#burger {
+    display: none;
+}
+
 
 @media screen and (max-width: 1200px){
     #hero {
@@ -275,6 +279,10 @@ footer .menu a:hover {
 
     #header {
         align-items: flex-start !important;
+    }
+
+    #burger {
+        display: block;
     }
 
     .logo {
